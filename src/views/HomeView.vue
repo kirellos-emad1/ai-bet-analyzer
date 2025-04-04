@@ -26,6 +26,9 @@ import Header from '@/components/Header.vue';
 import Features from '@/components/Features.vue';
 import HowItWorks from '@/components/HowItWorks.vue';
 import Support from '@/components/Support.vue';
+import slideImage1 from '@/assets/screen1.png'
+import slideImage2 from '@/assets/screen2.png'
+import slideImage3 from '@/assets/screen3.png'
 
 interface Section {
     id: string;
@@ -43,7 +46,7 @@ const realTimeSection = reactive<Section[]>([
         leftText: 'Never lose track of a bet again. Our intelligent system automatically categorizes and monitors all your active bets across multiple sportsbooks.',
         rightHeader: 'Real-Time Updates',
         rightText: 'Get instant notifications about score changes, game developments, and potential cash-out opportunities directly on your device.',
-        img: 'src/assets/screen1.png',
+        img: slideImage1,
         buttonText: 'Explore Features'
     },
     {
@@ -52,7 +55,7 @@ const realTimeSection = reactive<Section[]>([
         leftText: 'Discover your betting strengths and weaknesses with comprehensive analytics that break down performance by sport, bet type, and odds range.',
         rightHeader: 'AI-Powered Insights',
         rightText: 'Our machine learning algorithms analyze your betting history to identify patterns and opportunities that can significantly improve your success rate.',
-        img: 'src/assets/screen2.png',
+        img: slideImage2,
         buttonText: 'See How It Works'
     },
     {
@@ -61,7 +64,7 @@ const realTimeSection = reactive<Section[]>([
         leftText: 'Leverage data-driven recommendations to refine your betting strategy and maximize ROI with personalized insights tailored to your betting style.',
         rightHeader: 'Performance Dashboard',
         rightText: 'Track key metrics like win rate, average odds, yield percentage, and bankroll growth with intuitive visualizations and detailed breakdowns.',
-        img: 'src/assets/screen3.png',
+        img: slideImage3,
         buttonText: 'Get Support'
     },
 ]);
