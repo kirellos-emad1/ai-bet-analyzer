@@ -1,6 +1,6 @@
 <template>
     <section id="features"
-        class="w-full py-20 bg-gradient-to-b h-dvh flex items-center justify-center from-[#11151b] to-[#030303]">
+        class="w-full lg:py-20 md:py-20 pt-80 bg-gradient-to-b flex-col items-center justify-center  from-[#030303] to-[#11151b]">
         <div class="max-w-6xl mx-auto px-14 md:px-8">
             <h2
                 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-sky-400 to-sky-600 bg-clip-text text-transparent">
