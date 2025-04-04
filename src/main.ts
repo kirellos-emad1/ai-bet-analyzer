@@ -1,8 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-import Navbar from './components/Navbar.vue'
-import Footer from './components/Footer.vue'
+import Navbar from './components/navigation/Navbar.vue'
+import Footer from './components/navigation/Footer.vue'
 import { OhVueIcon, addIcons } from 'oh-vue-icons'
 import { HiSolidMenu, MdArrowdropdowncircleSharp } from "oh-vue-icons/icons";
 import { HiSolidTrendingUp } from "oh-vue-icons/icons";

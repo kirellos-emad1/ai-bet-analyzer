@@ -14,14 +14,15 @@
                 <slot v-if="haveButton"></slot>
             </div>
             <div class="hidden md:hidden lg:block">
-                <img src="../assets/screen1.png"
-                    class="absolute rounded-3xl lg:w-[275px] shadow-2xl top-[7%] z-30 left-[60%] animate-fall" alt="" />
-                <img src="../assets/screen2.png"
+                <img src="../../assets/screen1.png"
+                    class="absolute rounded-3xl lg:w-[275px] shadow-2xl top-[7%] z-30 left-[60%] animate-fall"
+                    alt="screen1" />
+                <img src="../../assets/screen2.png"
                     class="absolute w-[235px] rounded-3xl top-[3%] rotate-[15deg] z-10 left-[75%] overflow-hidden animate-fall opacity-80"
-                    alt="" />
-                <img src="../assets/screen3.png"
+                    alt="screen2" />
+                <img src="../../assets/screen3.png"
                     class="absolute w-[230px] rounded-3xl rotate-[-15deg] top-[25%] z-10 left-[49.3%] animate-fall opacity-70"
-                    alt="" />
+                    alt="screen3" />
             </div>
         </section>
     </header>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Header from '@/components/Header.vue';
+import Header from '@/components/navigation/Header.vue';
 import { ref } from 'vue';
 import axios from 'axios';
 import * as d3 from 'd3';

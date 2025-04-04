@@ -3,7 +3,7 @@
         class="fixed w-[80%] z-50 bg-[rgba(18,18,18,0.8)] backdrop-blur-[10px] left-[50%] translate-x-[-50%] shadow-lg ring-1 ring-black/5 p-8 rounded-xl flex items-center justify-between md:h-20 lg:h-20 h-14 lg:mt-4 md:mt-4 mt-2">
         <div class="flex items-center justify-between max-w-7xl">
             <RouterLink to="/" class="z-50">
-                <img class="w-16 md:w-20 lg:w-24" src="../assets/logo.png" alt="ZortLogo">
+                <img class="w-16 md:w-20 lg:w-24" src="../../assets/logo.png" alt="ZortLogo">
             </RouterLink>
         </div>
 
@@ -43,7 +43,7 @@
                         {{ link.name }}
                     </a>
                     <RouterLink v-else :to="link.path" @click="isOpen = false" active-class="text-sky-400"
-                        class="block text-neutral-400 hover:text-sky-400 transition-colors text-base">
+                        class="block text-neutral-200 hover:text-sky-400 transition-colors text-base">
                         {{ link.name }}
                     </RouterLink>
                 </template>

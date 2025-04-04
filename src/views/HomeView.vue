@@ -21,11 +21,11 @@
 
 <script setup lang="ts">
 import { reactive } from 'vue';
-import RealTimeSection from '@/components/RealTimeSection.vue';
-import Header from '@/components/Header.vue';
-import Features from '@/components/Features.vue';
-import HowItWorks from '@/components/HowItWorks.vue';
-import Support from '@/components/Support.vue';
+import RealTimeSection from '@/components/home-screen/RealTimeSection.vue';
+import Header from '@/components/navigation/Header.vue';
+import Features from '@/components/home-screen/Features.vue';
+import HowItWorks from '@/components/home-screen/HowItWorks.vue';
+import Support from '@/components/home-screen/Support.vue';
 import slideImage1 from '@/assets/screen1.png'
 import slideImage2 from '@/assets/screen2.png'
 import slideImage3 from '@/assets/screen3.png'
